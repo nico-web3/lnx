@@ -2,7 +2,6 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -57,6 +56,9 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        disableSwitch: true,
+      },
       navbar: {
         logo: {
           alt: 'LNX',
@@ -67,10 +69,10 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'How to use',
+            label: 'Discover more',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/xdaniortega/crossExecution',
             label: 'GitHub',
             position: 'right',
           },
@@ -93,7 +95,7 @@ const config = {
             items: [
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/lnxsystem',
               },
             ],
           },
@@ -102,17 +104,14 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/xdaniortega/crossExecution',
               },
             ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} LNX`,
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
+
     }),
 };
 

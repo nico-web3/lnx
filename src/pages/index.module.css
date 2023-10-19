@@ -12,7 +12,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 500px;  
+  height: 650px; /* Updated height for larger screens */
+
 }
 
 @media screen and (max-width: 996px) {
