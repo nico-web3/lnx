@@ -35,7 +35,7 @@ const FeatureList = [
     Img: require('@site/static/img/users.png').default,
     description: (
       <>
-        Accessing multiple blockchains allows developers to tap into diverse user bases, enhancing the potential for widespread adoption of theor dApps.
+        Accessing multiple blockchains allows developers to tap into diverse user bases, enhancing community growth and the potential for widespread adoption of their dApps.
       </>
     ),
   },
