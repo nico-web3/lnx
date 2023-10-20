@@ -8,7 +8,7 @@ sidebar_position: 1
 1. Run a validator node:
 
 ```shell
-export WSS_URL=wss://sepolia.infura.io/ws/v3/417f9a026f74429d99b34ab38a96b676
+export WSS_URL=wss://sepolia.infura.io/ws/v3/<<YOUR-KEY>>
 ```
 
 Cartesi Server Manager must be built specifying the network used:
@@ -21,7 +21,7 @@ docker buildx bake server --load --set “*.args.NETWORK=sepolia”
 2. Export the RPC URL:
 
 ```shell
-export RPC_URL=https://sepolia.infura.io/v3/417f9a026f74429d99b34ab38a96b676
+export RPC_URL=https://sepolia.infura.io/v3/<<YOUR-KEY>>
 ```
 
 ```shell
@@ -37,7 +37,7 @@ DAPP_NAME=echo-dlinn docker compose --env-file ../env.sepolia -f ../docker-compo
 4. Send an input from the frontend console:
 
 ```shell
-yarn start input send --payload "test 1946" --rpc https://sepolia.infura.io/v3/417f9a026f74429d99b34ab38a96b676 --dapp echo-dlinn
+yarn start input send --payload "test 1946" --rpc https://sepolia.infura.io/v3/<<YOUR-KEY>> --dapp echo-dlinn
 ```
 
 5. Call Inputbox by adding input from Remix IDE.

@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Deploy a Cartesi dApp 
+# Deploying a Cartesi dApp 
 
 ## First experiment with Sunodo
 

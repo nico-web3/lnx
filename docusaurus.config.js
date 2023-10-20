@@ -6,7 +6,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'LNX',
-  tagline: 'Cross-chain dApps made easy',
+  tagline: 'Cross-chain Linux dApps made easy',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -69,7 +69,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Discover more',
+            label: 'Docs',
           },
           {
             href: 'https://github.com/xdaniortega/crossExecution',
@@ -85,7 +85,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'How to use',
+                label: 'Get started',
                 to: '/docs/intro',
               },
             ],

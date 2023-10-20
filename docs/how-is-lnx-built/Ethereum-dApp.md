@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Create a basic Ethereum dApp
+# Creating a basic Ethereum dApp
 
 As the first step of LNX development, we create a simple Ethereum dApp that receives messages from [Avalanche](https://www.avax.network/) and implements [CCIP from Chainlink](https://chain.link/cross-chain).
 
