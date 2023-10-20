@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## First experiment with Sunodo
 
-We first deployed an example Cartesi dApp called [Echo Python](https://docs.cartesi.io/cartesi-rollups/0.8/build-dapps/run-dapp/) by using Cartesi's [Sunodo framework](https://docs.sunodo.io/). However, Sunodo fails to build only provided Anvil integration (local blockchain).
+We first deployed an example Cartesi dApp called [Echo Python](https://docs.cartesi.io/cartesi-rollups/0.8/build-dapps/run-dapp/) by using Cartesi's [Sunodo framework](https://docs.sunodo.io/). However, Sunodo only provided Anvil integration (local blockchain) and was not suitable for our requirements.
 
 ![Screen4](../../static/img/screen4.png)
 
