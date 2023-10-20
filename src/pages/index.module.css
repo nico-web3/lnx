@@ -3,8 +3,9 @@
  * and scoped locally.
  */
 
+ 
  .heroBanner {
-  color: #000000;  /* Bright blue color */
+  color: #000000;  
   text-shadow: 2px 2px 4px #888888;
   text-align: center;
   background-color: transparent !important;
@@ -12,7 +13,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 650px; /* Updated height for larger screens */
+  height: 645px; /* Updated height for larger screens */
 
 }
 
@@ -51,3 +52,4 @@
   top: 0;
   left: 0;
 }
+

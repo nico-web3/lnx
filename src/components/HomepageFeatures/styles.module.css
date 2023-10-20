@@ -3,9 +3,15 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  background-color: black;
 }
 
 .featureSvg {
   height: 200px;
   width: 200px;
+}
+
+.features h3,
+.features p {
+  color: #add8e6; /* Light blue color */
 }

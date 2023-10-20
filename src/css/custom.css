@@ -6,25 +6,51 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #3366cc;
+  --ifm-color-primary-dark: #2d5cb5;
+  --ifm-color-primary-darker: #274da0;
+  --ifm-color-primary-darkest: #204085;
+  --ifm-color-primary-light: #3a73d6;
+  --ifm-color-primary-lighter: #4180e0;
+  --ifm-color-primary-lightest: #5892f0;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #4a8ad1;
+  --ifm-color-primary-dark: #4179c2;
+  --ifm-color-primary-darker: #3968b3;
+  --ifm-color-primary-darkest: #2e57a4;
+  --ifm-color-primary-light: #539be5;
+  --ifm-color-primary-lighter: #66aaee;
+  --ifm-color-primary-lightest: #7db9f7;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+  background-color: #000000 !important;
+}
+
+.footer .footer__link, .footer__link-item, .footer .footer__copyright, .footer .footer__title {
+  color: #add8e6 !important;  /* Light blue color, adjust as needed */
+}
+
+.navbar {
+  background-color: #000000 !important; 
+}
+
+/* Setting the navbar items and link colors to light blue */
+.navbar .navbar__link, .navbar .navbar__item, .navbar .navbar__brand {
+  color: #add8e6 !important;
+}
+
+/* If there's a dropdown menu in your navbar, you might also want to adjust its colors */
+.navbar .dropdown__link {
+  color: #add8e6 !important;
+}
+
+.sidebar div, .sidebar span, .sidebar a, .sidebar p, .sidebar li {
+  color: #000000 !important;
 }

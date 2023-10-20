@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Blockchain Agnostic',
-    Img: require('@site/static/img/first.png').default,
+    Img: require('@site/static/img/agnostic.png').default,
     description: (
       <>
         Choose from a range of blockchains for dApp deployment and reduce the blockchain-specific risks and limitations.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Scalable',
-    Img: require('@site/static/img/second.png').default,
+    Img: require('@site/static/img/scalable.png').default,
     description: (
       <>
         Enhances dApp scalability by deploying on different blockchains. Select the blockchain that best suits your scalability needs, with the option to migrate if requirements change.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Interoperable',
-    Img: require('@site/static/img/third.png').default,
+    Img: require('@site/static/img/interoperable.png').default,
     description: (
       <>
         Cross-chain communication facilitates innovative cross-chain functionality, such as decentralized exchanges operating across multiple blockchains, harnessing the strengths of each network.
@@ -32,7 +32,7 @@ const FeatureList = [
   },
   {
     title: 'Diverse User Bases',
-    Img: require('@site/static/img/fourth.png').default,
+    Img: require('@site/static/img/users.png').default,
     description: (
       <>
         Accessing multiple blockchains allows developers to tap into diverse user bases, enhancing the potential for widespread adoption of theor dApps.
@@ -41,7 +41,7 @@ const FeatureList = [
   },
   {
     title: 'Decentralized and Secure',
-    Img: require('@site/static/img/fifth.png').default,
+    Img: require('@site/static/img/secure.png').default,
     description: (
       <>
         Maintain core blockchain principles, ensuring security and decentralization across multiple networks.
@@ -50,7 +50,7 @@ const FeatureList = [
   },
   {
     title: 'Risk Mitigating',
-    Img: require('@site/static/img/sixth.png').default,
+    Img: require('@site/static/img/risk.png').default,
     description: (
       <>
          Deploy on various blockchains and reduce dependence on a single network, mitigating risks associated with technical or governance issues.
