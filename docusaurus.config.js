@@ -54,6 +54,7 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/lnx-social-card.jpg',
+      metaDescription: "Cross-chain Cartesi dApps made easy",
       colorMode: {
         disableSwitch: true,
       },
