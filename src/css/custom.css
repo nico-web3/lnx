@@ -35,6 +35,10 @@
 
 .footer .footer__link, .footer__link-item, .footer .footer__copyright, .footer .footer__title {
   color: #add8e6 !important;  /* Light blue color, adjust as needed */
+  display: flex;              /* Flexbox for centering */
+  justify-content: center;   /* Horizontal centering */
+  align-items: center;       /* Vertical centering */
+  text-align: center;        /* For text elements */
 }
 
 .navbar {
