@@ -17,7 +17,7 @@ const FeatureList = [
     Img: require('@site/static/img/scalable.png').default,
     description: (
       <>
-        Enhances dApp scalability by deploying on different blockchains. Select the blockchain that best suits your scalability needs, with the option to migrate if requirements change.
+        Enhance dApp scalability by deploying on different blockchains. Select the blockchain that best suits your scalability needs, with the option to migrate if requirements change.
       </>
     ),
   },
