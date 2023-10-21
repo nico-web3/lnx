@@ -5,7 +5,9 @@ sidebar_position: 3
 # How to use LNX
 
 
-1. Run a validator node:
+1. Run a validator node.
+
+For example, for Sepolia:
 
 ```shell
 export WSS_URL=wss://sepolia.infura.io/ws/v3/<<YOUR-KEY>>
@@ -18,7 +20,10 @@ docker buildx bake server --load --set “*.args.NETWORK=sepolia”
 ```
 
 
-2. Export the RPC URL:
+2. Export the RPC URL.
+
+For example, for Sepolia:
+
 
 ```shell
 export RPC_URL=https://sepolia.infura.io/v3/<<YOUR-KEY>>
@@ -28,7 +33,10 @@ export RPC_URL=https://sepolia.infura.io/v3/<<YOUR-KEY>>
 export mnemonic=””
 ```
 
-3. Run the node:
+3. Run the node.
+
+For example, for Sepolia:
+
 
 ```shell
 DAPP_NAME=echo-dlinn docker compose --env-file ../env.sepolia -f ../docker-compose-testnet.yml -f ./docker-compose.override.yml up
@@ -39,9 +47,3 @@ DAPP_NAME=echo-dlinn docker compose --env-file ../env.sepolia -f ../docker-compo
 ```shell
 yarn start input send --payload "test 1946" --rpc https://sepolia.infura.io/v3/<<YOUR-KEY>> --dapp echo-dlinn
 ```
-
-5. Call Inputbox by adding input from Remix IDE.
-
-6. Deploy a new relayer with the same call.
-
-7. Send cross chain messages to the new relayer.

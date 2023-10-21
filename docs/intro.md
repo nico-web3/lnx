@@ -4,6 +4,11 @@ sidebar_position: 1
 
 # What is LNX
 
+<video width="100%" controls poster="/img/LNX-hla.png">
+    <source src="/videos/LNX-video.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
+
 LNX is an innovative project that introduces a groundbreaking solution for deploying [Cartesi-powered](https://cartesi.io/) Linux  decentralized applications (dApps) across all the blockchain ecosystem. This project enables cross-chain communication, allowing computer-demanding dApps to seamlessly function on different blockchains.
 
 ![Concept](../static/img/LNX-concept.png)
@@ -12,4 +17,4 @@ LNX harnesses the robust capabilities of [Cartesi](https://cartesi.io/), a versa
 
 ![HLA](../static/img/LNX-hla.png)
 
-The project addresses a critical challenge within the blockchain ecosystem by offering a solution that breaks the limitations of being confined to a single blockchain. These limitations encompass issues such as liquidity bottlenecks, restricted user bases, constrained community engagement, security and privacy concerns, alongside technical and operational challenges. LNX's cross-chain capabilities provide the flexibility to adapt, scale, and engage with diverse user communities across multiple blockchains while safeguarding against the rigidity of a single-chain approach, ensuring the longevity and versatility of dApps in an ever-evolving blockchain landscape.
+In summary, LNX, the Cross-Chain Cartesi-Powered Linux Runtime Rollup, offers dApp developers a versatile and adaptable solution for blockchain deployment. With the flexibility to operate on multiple blockchains, it enables developers to create versatile applications, achieve horizontal scalability, expand their user base, access greater liquidity, and navigate the ever-evolving blockchain landscape with confidence and ease, without being perpetually tied to their initial choice of base layer.
