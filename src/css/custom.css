@@ -58,3 +58,9 @@
 .sidebar div, .sidebar span, .sidebar a, .sidebar p, .sidebar li {
   color: #000000 !important;
 }
+
+.releaseSidebarHeading {
+  @apply !mt-2 border-t-secondary-700 pt-1;
+  border-top-style: solid;
+  border-top-width: 1px;
+}

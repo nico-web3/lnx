@@ -1,6 +1,7 @@
 {
   "label": "Development process",
   "position": 2,
+  "className": "releaseSidebarHeading",
   "link": {
     "type": "generated-index",
     "description": "Discover the development timeline of LNX."
