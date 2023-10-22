@@ -4,9 +4,9 @@ sidebar_position: 2
 
 # Deploying a Cartesi dApp 
 
-## First experiment with Sunodo
+## Initial build with Sunodo
 
-We first deployed an example Cartesi dApp called [Echo Python](https://docs.cartesi.io/cartesi-rollups/0.8/build-dapps/run-dapp/) by using Cartesi's [Sunodo framework](https://docs.sunodo.io/). However, Sunodo only provided Anvil integration (local blockchain) and was not suitable for our requirements.
+We first deployed an example Cartesi dApp called [Echo Python](https://docs.cartesi.io/cartesi-rollups/0.8/build-dapps/run-dapp/) by using Cartesi's [Sunodo framework](https://docs.sunodo.io/). 
 
 ![Screen4](../../static/img/screen4.png)
 
@@ -14,7 +14,7 @@ We first deployed an example Cartesi dApp called [Echo Python](https://docs.cart
 
 ![Screen6](../../static/img/screen6.png)
 
-As we don’t have enough working examples provided by Sunodo (that will ensure that it will work and potentially it seems that we’ll need to set a Validator and pay for it), we’re going to use [rollups-examples](https://github.com/cartesi/rollups-examples) and clone the Echo dApp from there.
+After building the initial locally working  application, we’re going to use [rollups-examples](https://github.com/cartesi/rollups-examples) and clone the Echo dApp from there.
 
 ## Building an echo dApp from Cartesi Rollups examples
 

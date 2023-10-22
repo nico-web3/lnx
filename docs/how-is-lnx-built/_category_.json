@@ -1,9 +1,9 @@
 {
-  "label": "Development process",
+  "label": "Hackathon development process",
   "position": 2,
   "className": "releaseSidebarHeading",
   "link": {
     "type": "generated-index",
-    "description": "Discover the development timeline of LNX."
+    "description": "Discover LNX was developed during the ETHGlobal Online Hackathon."
   }
 }

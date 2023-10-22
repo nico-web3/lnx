@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# How to use LNX
+# Building with LNX
 
 
 1. Run a validator node.
